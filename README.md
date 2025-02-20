@@ -40,18 +40,15 @@ Ticket-Globant es una aplicación web desarrollada con React para ver y comprar 
 
 1. **Clone el repositorio:**
 
-git clone https://github.com/tuusuario/ticket-globant.git
-cd ticket-globant
+git clone https://github.com/tuusuario/Ticket-Malaga.git
+cd Ticket-Malaga
 
 # Instalar dependencias:
 npm install
 
 # Iniciar el servidor de desarrollo:
 npm start
-# La aplicación estará disponible en XXX
-
-# Ejecutar pruebas:
-npm run test
+# La aplicación estará disponible en https://ticket-malaga.vercel.app/
 
 
 ## Fuente de datos: API vs. Datos Locales
@@ -63,8 +60,6 @@ La aplicación permite elegir entre dos fuentes de datos para la lista de concie
 
 - Datos de la API:**  
   Cuando se desactiva el modo local (configurado mediante un conmutador o selector), la aplicación realiza una llamada a la API XXX para obtener la lista de conciertos.
-
-Esta elección se gestiona en el hook `useFilteredConcerts` a través de la variable `useLocalData` obtenida del `FilterContext`.
 
 ## Cómo utilizar la aplicación
 
@@ -149,18 +144,15 @@ Ticket-Globant is a web application developed with React for viewing and purchas
 
 1. **Clone the repository:**
 
-git clone https://github.com/tuusuario/ticket-globant.git
-cd ticket-globant
+git clone https://github.com/tuusuario/Ticket-Malaga.git
+cd Ticket-Malaga
 
 # Install dependencies:
 npm install
 
 # Start the development server:
 npm start
-# The application will be available at XXX
-
-# Run tests:
-npm run test
+# The application will be available at https://ticket-malaga.vercel.app/
 
 
 ## Data Source: API vs. Local Data
