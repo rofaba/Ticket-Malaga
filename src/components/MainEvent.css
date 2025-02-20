@@ -1,0 +1,45 @@
+.event_container{
+    background-color: whitesmoke;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    padding:20px;
+
+}
+.event_container img {
+    width: 98%;
+    height: 400px;
+    padding: 10px;
+
+}
+.concert-data{
+    width:100%;
+    background-color:grey;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.go-to-detail-btn{
+    background-color: white;
+    color: grey;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+.go-to-detail-btn:hover{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color:white;
+    border-top: solid 12px rgb(129, 177, 84);
+    height:4rem;
+    gap: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-size: 5%;
+}
+
+.header img{
+    height: 30px;
+    width: 30px;
+}
+
+.header .hideButton{
+    border: none;
+    padding: 5px;
+}
+
+.header button{
+    transition: 1s;
+}
+
+.header button:hover{
+    background-color: rgb(146, 179, 115);
+    color: white;
+}
+.logo{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin:0;
+    cursor: pointer;
+}
+

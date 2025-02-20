@@ -1,0 +1,45 @@
+.footer{
+    background-color: whitesmoke;
+    color: grey;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 7px rgb(129, 177, 84);
+
+}
+.footer button{
+    border: none;
+    background-color: whitesmoke;
+}
+
+.footer .follow{
+    margin-left: 100px;
+}
+
+.footer .follow .social{
+    display: flex;
+    gap: 20px;
+}
+
+.footer .info{
+    margin-right: 100px;
+}
+
+.logo_footer img{
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+.social{
+    display: flex;
+    
+}
+ .social a:hover{
+    color: rgb(129, 177, 84);
+    font-weight: bold;
+}
+ .social a{
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+ }
