@@ -40,7 +40,7 @@ function ConfirmPage() {
         <tbody>
           {cartCopy.map((item) => (
             <tr key={item.id}>
-              <td>{item.eventName}</td>
+              <td>{item.event_name}</td>
               <td>{item.place}</td>
               <td>{formatDateTime(item.dateTime)}</td>
               <td>{item.quantity}</td>
